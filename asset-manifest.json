@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/google-sheets-electricity-bill/static/css/main.0145ba4e.css",
+    "main.js": "/google-sheets-electricity-bill/static/js/main.75c4a17f.js",
+    "index.html": "/google-sheets-electricity-bill/index.html",
+    "main.0145ba4e.css.map": "/google-sheets-electricity-bill/static/css/main.0145ba4e.css.map",
+    "main.75c4a17f.js.map": "/google-sheets-electricity-bill/static/js/main.75c4a17f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0145ba4e.css",
+    "static/js/main.75c4a17f.js"
+  ]
+}
