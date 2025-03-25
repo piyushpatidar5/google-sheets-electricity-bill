@@ -879,7 +879,7 @@ button:hover {
 }
 
 .reading-input input {
-  width: 100%;
+  width: 90%;
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -911,7 +911,7 @@ button:hover {
 }
 
 .family-meter .reading-input input {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -1075,7 +1075,7 @@ button:hover {
 }
 
 .reading-input input {
-  width: 100%;
+  width: 90%;
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
