@@ -1,0 +1,74 @@
+/* Theme variables */
+:root {
+  /* Light theme (default) */
+  --bg-color: #f8f9fa;
+  --app-bg: #ffffff;
+  --text-color: #212529;
+  --text-secondary: #495057;
+  --border-color: #dee2e6;
+  --header-bg: #ffffff;
+  --card-bg: #ffffff;
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary-color: #6c757d;
+  --secondary-hover: #5a6268;
+  --error-bg: #fef2f2;
+  --error-color: #dc2626;
+  --success-color: #16a34a;
+  --table-header-bg: #f8f9fa;
+  --table-hover-bg: #f1f3f5;
+  --water-bg: #e0f2fe;
+  --water-color: #0284c7;
+  --water-hover: #0369a1;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --button-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --transition-speed: 0.3s;
+  --highlight-color: #f1f3f5;
+  --family-meter-bg: #f8f9fa;
+}
+
+/* Dark theme */
+[data-theme='dark'] {
+  --bg-color: #1e1e2e;
+  --app-bg: #181825;
+  --text-color: #cdd6f4;
+  --text-secondary: #a6adc8;
+  --border-color: #45475a;
+  --header-bg: #181825;
+  --card-bg: #1e1e2e;
+  --primary-color: #89b4fa;
+  --primary-hover: #b4befe;
+  --secondary-color: #585b70;
+  --secondary-hover: #7f849c;
+  --error-bg: #433;
+  --error-color: #f38ba8;
+  --success-color: #a6e3a1;
+  --table-header-bg: #181825;
+  --table-hover-bg: #313244;
+  --water-bg: #1e3246;
+  --water-color: #74c7ec;
+  --water-hover: #89dceb;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --button-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --highlight-color: #313244;
+  --family-meter-bg: #313244;
+}
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color var(--transition-speed) ease, 
+              color var(--transition-speed) ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
